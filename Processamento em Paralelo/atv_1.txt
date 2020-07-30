@@ -1,0 +1,11 @@
+As funções que devem ser implementadas possuem comentários no arquivo todo.py, que indicam o que elas fazem.
+
+Seu programa final deve gerar uma saída no estilo:
+
+[('the', 12793), ('to', 8039), ('and', 7692), ('of', 7489), ('a', 5683)]
+
+A função map e a reduce produzem dicionários de contagens. Cada entrada é uma palavra e a saída um valor.
+
+>>> resultadomap = list(map(conta_um_arquivo, glob.glob(pasta)))
+>>> next(iter(resultadomap[0].items()))
+('\ufeffthe', 1)
